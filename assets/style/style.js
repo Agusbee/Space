@@ -1,0 +1,1 @@
+var onclick="alert('OK TERIMA KASIH :D')"

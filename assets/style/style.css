@@ -1,0 +1,223 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand:400,700&display=swap');
+
+body {
+    font-family:'Quicksand', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+* {
+   box-sizing: border-box;
+}
+
+h2, h3 {
+	color: #a770e6;
+}
+
+h4 {
+	color: #700aab;
+}
+
+.jumbotron span p {
+	letter-spacing: 15px;
+	font-size: 15px;
+	word-spacing: 5px; 	
+}
+
+main {
+	padding: 20px;
+	overflow: auto;
+}
+
+nav {
+	text-align: center;
+}
+
+nav li {
+	display: inline;
+	list-style-type: none;
+   	margin-right: 30px;
+}
+
+nav a {
+	font-size: 17px;
+	font-weight: 500;
+	text-decoration: none;
+	color: white;
+	padding: 10px 20px;
+}
+
+nav a:hover{
+	font-weight: bold;
+	background-color: #c76eff;
+	border-radius: 20px;
+}
+
+.card {
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+   border-radius: 5px;
+   padding: 20px;
+   margin-top: 20px;
+}
+
+.featured-image {
+   width: 400px;
+   max-height: 200px;
+   object-fit: cover;
+   object-position: center;
+}
+
+.clear {
+	clear: both;
+}
+
+#fact .fakta img {
+	float: left;
+	padding-right: 30px;
+}
+
+#planet .planet img {
+	float: left;
+	padding-right: 30px;
+}
+
+.profile header {
+	text-align: center;
+}
+
+.profile img {
+	width: 200px;
+	border-radius: 100px;
+}
+
+.oi {
+	padding-top: 30px;
+}
+
+.featured-image-planet {
+   width: 400px;
+   max-height: 200%;
+   object-fit: cover;
+   object-position: center;
+}
+
+.jumbotron {
+   font-size: 20px;
+   padding: 60px;
+   text-align: center;
+   color: white;
+   background: rgb(110,0,158);
+   background: linear-gradient(45deg, rgba(110,0,158,1) 0%, rgba(145,58,185,1) 50%, rgba(191,138,255,1) 100%);
+}
+
+.content {
+	float: left;
+	width: 73%;
+}
+
+nav {
+   background-color: #a328e0;
+   padding: 5px;
+   position: sticky;
+   top: 0;
+}
+
+footer {
+   padding: 20px;
+   color: white;
+   background-color: #aa42eb;
+   text-align: center;
+   font-weight: bold;
+}
+
+aside {
+	float: right;
+	width: 25%;
+	padding-left: 20px;
+}
+
+aside .firstname, .lastname, .email, .massage, .pesan, .btn {
+	padding: 10px 0;
+}
+
+aside .kotak {
+	padding: 10px;
+	width: 100%;
+	border-radius: 5px;
+	color: black;
+	font-family:'Quicksand', sans-serif;
+}
+
+aside h2 {
+	text-align: center;
+}
+
+aside .pesan {
+	border-radius: 4px;
+	width: 100%;
+	height: 120px;
+	padding: 10px;
+	font-family:'Quicksand', sans-serif;
+}
+
+aside .btn {
+	margin-top: 15px;
+	border:none;
+	border-radius: 5px;
+	padding: 10px;
+	background-color: #a328e0;
+	color: white;
+}
+
+aside .btn:hover {
+	background-color: #c76eff;
+}
+
+footer a {
+	text-decoration: none;
+}
+
+footer a:hover {
+	color: white;
+	font-weight: bold;
+}
+
+@media screen and (max-width: 1000px) {
+   .content,
+   aside {
+       width: 100%;
+       padding: 0;
+   }
+
+   .fakta img {
+	   width: 100%;
+	   padding-bottom: 10px;
+	}
+
+	#planet .planet img {
+		width: 100%;
+		padding-bottom: 10px;
+	}
+
+	nav {
+		text-align: left;
+	}
+
+	nav li {
+		margin-right: 5px;
+	}
+
+	.jumbotron span p {
+		letter-spacing: 10px;
+		font-size: 15px; 	
+	}
+
+}
+
+header {
+	display: inline;
+}
